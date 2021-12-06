@@ -57,7 +57,6 @@ export class Parser {
                 res[key] = value;
             }
         }
-        this.step();
         return res;
     }
 

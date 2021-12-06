@@ -71,7 +71,7 @@ export class Lexer {
         let value = this.char();
         this.step();
         let dots = 0;
-        while (/\d/.test(this.char()!)) {
+        while (/\d|\./.test(this.char()!)) {
             if (this.char()! === '.')
                 dots++;
             if (dots > 1)
