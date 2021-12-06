@@ -1,0 +1,23 @@
+{
+  "name": "json-parser-in-typescript",
+  "version": "1.0.0",
+  "description": "A JSON Parser in TypeScript ",
+  "main": "dist/main.js",
+  "repository": "git@github.com:SimonFJ20/json-parser-in-typescript.git",
+  "author": "Simon From Jakobsen <sfja.skp@edu.mercantec.dk>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "nodemon dist/main.js --ignore public/ --ignore dist/ --ignore db.json",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "nodemon": "^2.0.13",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "axios": "^0.23.0"
+  }
+}
